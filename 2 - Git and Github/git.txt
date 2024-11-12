@@ -1,1 +1,20 @@
-git commit
+- Clear Commands in Git Bash Terminal
+clear
+
+- Create a branch
+git branch [branch_name]
+
+- List all existing branches
+git branch -a
+
+- Switch/move to a different branch
+git checkout [branch_name]
+
+- Merge branches (ensure you are in the master branch)
+git merge [branch_name]
+
+- Delete a branch
+git branch -d [branch_name]
+
+- Push to GitHub
+git push
