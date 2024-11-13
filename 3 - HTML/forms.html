@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+<body>
+    <h1>Creating Forms</h1>
+    <form action="">
+        <div>
+            <label for="full-name">Name:</label>
+            <input type="text" id="full-name" placeholder="Full Name" required>
+        </div>
+        <div> 
+            <label for="">Email:</label>
+            <input type="email" id="email-id" placeholder="Email" required>
+        </div>
+        <div> 
+            <label for="password-id">Password:</label>
+            <input type="password" id="password-id" placeholder="Password" required>
+        </div>
+        <div>
+            <label for="age-id">Age:</label>
+            <input type="number" id="age-id" placeholder="Age" required min="18" max="100">
+        </div>
+        <div>
+            <textarea name="user-message" id="message-id" col="50" rows="8"></textarea>
+        </div>
+        <div>
+            <label for="gender-id">Gender:</label>
+            <select name="gender" id="gender-id">
+                <option value="none" selected disabled hidden>-- Select your Gender--</option>
+                <option value="male" >Male</option>
+                <option value="female">Female</option>
+                <option value="others" >Others</option>
+            </select>
+        </div>
+        <div>
+            <label for="">Public</label>
+            <input type="radio" id="public-id" value="public" name="profile">
+
+            <label for="">Private</label>
+            <input type="radio" id="private-id" value="private" name="profile"></input>
+        </div>
+        <div>
+            <label for="">Action</label>
+            <input type="checkbox" name="genre" id="action-genre">
+
+            <label for="">Horror</label>
+            <input type="checkbox" name="genre" id="horror-genre">
+
+            <label for="">Comedy</label>
+            <input type="checkbox" name="genre" id="comedy-genre">
+
+            <button type="submit">Submit</button>
+            <button type="reset">Reset</button>
+        </div>
+    </form>
+</body>
+</html>
