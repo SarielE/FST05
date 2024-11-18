@@ -1,0 +1,26 @@
+#relative{
+    position: relative;
+    background-color: skyblue;
+    top: 40px;
+    left: 80px;
+}
+
+#absolute{
+    background-color: tomato;
+    position: absolute;
+    top:0;
+    right: 0px;
+}
+
+#fixed{
+    background-color: green;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+}
+
+#sticky{
+    background-color: rgb(200, 0, 0);
+    position: sticky;
+    top: 0;
+}
